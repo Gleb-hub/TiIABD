@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "tiiabd"
+version = "0.1.0"
+description = ""
+authors = ["gl_epka"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ruff = "^0.6.4"
+scikit-learn = "^1.5.1"
+pandas = "^2.2.2"
+python-docx = "^1.1.2"
+tqdm = "^4.66.5"
+
+[tool.ruff.lint]
+extend-select = [
+   "C90",    # mccabe
+   "N",      # pep8-naming
+   "UP",     # pyupgrade
+   "S",      # bandit
+   "BLE",    # flake8-blind-except
+   "B",      # bugbear
+   "C4",     # comprehensions
+   "DTZ",    # datetimez
+   "EM",     # error-messages
+   "FA",     # future-annotations
+   "ISC",    # implicit string concat
+   "PIE",    # flake8-pie
+   "PT",     # flake8-pytest-style
+   "SLF",    # flake8-self
+   "SIM",    # flake8-simplify
+   "ARG",    # flake8-unused-argument
+   "ERA",    # eradicate commented out code
+   "TRY",    # tryceratops
+]
+
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
