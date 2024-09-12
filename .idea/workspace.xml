@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68646cf7-8004-4d1f-bec2-df4c95e3bd88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/TiIABD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac1/extra1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac1/extra2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac1/extra3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac1/task1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac1/task2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac1/task3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac1/task4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac1/task5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac1/task6-12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/report.py" afterDir="false" />
-    </list>
+    <list default="true" id="68646cf7-8004-4d1f-bec2-df4c95e3bd88" name="Changes" comment="first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Gleb-hub"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Gleb-hub/TiIABD.git",
+    "accountId": "39d8bfa5-4b24-4097-ae9b-98e80423685e"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
 }]]></component>
@@ -210,6 +202,19 @@
       <option name="presentableId" value="Default" />
       <updated>1726067488756</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1726086013846</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726086013846</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
