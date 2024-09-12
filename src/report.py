@@ -128,4 +128,4 @@ def generate_report(folder_path, output_file):
 
 
 if __name__ == "__main__":
-    generate_report("prac1", "work_report.docx")
+    generate_report("src/prac1", "work_report.docx")
