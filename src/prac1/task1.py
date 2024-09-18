@@ -4,12 +4,14 @@ from math import pi
 def task() -> dict:
     res = {}
 
-    num = input("""
-    Введите номер фигуры:
-    1. Треугольник
-    2. Прямоугольник
-    3. Круг
-    """)
+    num = input(
+        """
+Введите номер фигуры:
+1. Треугольник
+2. Прямоугольник
+3. Круг
+        """
+    )
     shapes = {"1": "Треугольник", "2": "Прямоугольник", "3": "Круг"}
 
     match num:
@@ -33,23 +35,9 @@ def task() -> dict:
             return None
     return res
 
-
-if __name__ == "main":
+if __name__ == "__main__":
     res = task()
     if res is None:
-        print("Ошибка ввода")
-    else:
-        print(res)
-
-if __name__ == "builtins":
-    import sys
-    from io import StringIO
-
-    test_input = "2\n2\n3"
-    sys.stdin = StringIO(test_input)
-
-    res = task()
-    if res is None:
-        print("Ошибка ввода")
+        raise ValueError
     else:
         print(res)

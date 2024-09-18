@@ -39,11 +39,3 @@ def task(text: str):
 if __name__ == "__main__":
     text = "Ignition sequence start"
     print(task(text))
-
-if __name__ == "builtins":
-    import sys
-    from io import StringIO
-
-    sys.stdin = StringIO()
-    text = "Ignition sequence start"
-    print(task(text))

@@ -15,19 +15,7 @@ def task(n, requests):
             print(new_name)
 
 
-if __name__ == "main":
-    n = int(input())
-    requests = [input().strip() for _ in range(n)]
-
-    task(n, requests)
-
-
-if __name__ == "builtins":
-    import sys
-    from io import StringIO
-
-    sys.stdin = StringIO("3\nb\nb\nb")
-
+if __name__ == "__main__":
     n = int(input())
     requests = [input().strip() for _ in range(n)]
 

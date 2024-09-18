@@ -1,4 +1,5 @@
 def task(n, file_data, m, queries):
+    '''alskdjalskdjalskdj'''
     permissions = {}
 
     for i in range(n):
@@ -17,31 +18,7 @@ def task(n, file_data, m, queries):
             print("Access denied")
 
 
-if __name__ == "main":
-    n = int(input())
-    file_data = [input().strip() for _ in range(n)]
-    m = int(input())
-    queries = [input().strip() for _ in range(m)]
-
-    task(n, file_data, m, queries)
-
-if __name__ == "builtins":
-    import sys
-    from io import StringIO
-
-    sys.stdin = StringIO(
-        "3\n"
-        "python.exe x\n"
-        "book.txt r w\n"
-        "notebook.exe r w x\n"
-        "5\n"
-        "read python.exe\n"
-        "read book.txt\n"
-        "write notebook.exe\n"
-        "execute notebook.exe\n"
-        "write book.txt"
-    )
-
+if __name__ == "__main__":
     n = int(input())
     file_data = [input().strip() for _ in range(n)]
     m = int(input())

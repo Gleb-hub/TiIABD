@@ -8,13 +8,8 @@ def task(a: float, b: float, operation: str):
         print("При вводе допущена ошибка. Попробуйте еще раз.")
     return x
 
-
-if __name__ == "__main__":
-    print(task("5", "2", "*"))
-
-if __name__ == "builtins":
-    import sys
-    from io import StringIO
-
-    sys.stdin = StringIO()
-    print(task("5", "2", "*"))
+if __name__ == '__main__':
+    a = float(input())
+    b = float(input())
+    op = str(input())
+    print(task(a, b, op))

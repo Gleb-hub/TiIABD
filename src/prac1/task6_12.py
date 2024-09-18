@@ -33,10 +33,3 @@ def task():
 
 if __name__ == "__main__":
     task()
-
-if __name__ == "builtins":
-    import sys
-    from io import StringIO
-
-    sys.stdin = StringIO()
-    task()
